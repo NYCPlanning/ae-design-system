@@ -2,6 +2,7 @@ import { defineStyleConfig } from "@chakra-ui/react";
 
 export const buttonTheme = defineStyleConfig({
   baseStyle: {
+    border: "1px solid rgba(255, 255, 255, 0)",
     borderRadius: "base",
     px: 6,
     py: 3,
