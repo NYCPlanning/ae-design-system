@@ -7,6 +7,15 @@ export const buttonTheme = defineStyleConfig({
     px: 6,
     py: 3,
     whiteSpace: "normal",
+    display: "inline-block",
+    _before: {
+      display: "block",
+      content: "attr(data-label)",
+      fontWeight: "medium",
+      height: 0,
+      overflow: "hidden",
+      visibility: "hidden",
+    },
   },
   sizes: {
     xs: {
