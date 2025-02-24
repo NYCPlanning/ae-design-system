@@ -25,6 +25,12 @@ export const Primary: Story = {
     size: "md",
     children: "Primary Btn",
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-374&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };
 
 export const Secondary: Story = {
@@ -32,6 +38,12 @@ export const Secondary: Story = {
     variant: "secondary",
     size: "md",
     children: "Secondary Btn",
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-374&t=0imiNI8frfIDMA69-4",
+    },
   },
 };
 

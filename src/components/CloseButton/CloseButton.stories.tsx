@@ -20,4 +20,10 @@ export const Primary: Story = {
   args: {
     size: "md",
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-646&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };

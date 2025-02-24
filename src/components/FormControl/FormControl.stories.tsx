@@ -30,6 +30,12 @@ export const Base: Story = {
     isRequired: false,
     isInvalid: false,
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-686&t=0imiNI8frfIDMA69-4",
+    },
+  },
   render: (args) => (
     <FormControl id="input-component" {...args}>
       <FormLabel>Input Label</FormLabel>
@@ -44,6 +50,12 @@ export const Disabled: Story = {
     isDisabled: true,
     isRequired: false,
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-686&t=0imiNI8frfIDMA69-4",
+    },
+  },
   render: (args) => (
     <FormControl id="input-component" {...args}>
       <FormLabel>Input Label</FormLabel>
@@ -56,6 +68,12 @@ export const Disabled: Story = {
 export const Error: Story = {
   args: {
     isInvalid: true,
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-686&t=0imiNI8frfIDMA69-4",
+    },
   },
   render: (args) => (
     <FormControl id="input-component" {...args}>
@@ -70,6 +88,12 @@ export const Select: Story = {
   args: {
     isRequired: false,
     isInvalid: false,
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-686&t=0imiNI8frfIDMA69-4",
+    },
   },
   render: (args) => (
     <FormControl

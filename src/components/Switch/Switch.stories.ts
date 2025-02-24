@@ -22,6 +22,12 @@ export const Large: Story = {
     isChecked: false,
     isDisabled: false,
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-1610&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };
 
 export const Small: Story = {
@@ -30,5 +36,11 @@ export const Small: Story = {
     size: "sm",
     isChecked: false,
     isDisabled: false,
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-1610&t=0imiNI8frfIDMA69-4",
+    },
   },
 };

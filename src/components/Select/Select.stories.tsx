@@ -34,6 +34,12 @@ export const Base: Story = {
 
     await userEvent.click(canvas.getByText(/Placeholder Text/));
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-1585&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };
 
 export const Invalid: Story = {
@@ -43,6 +49,12 @@ export const Invalid: Story = {
     variant: "base",
     isInvalid: true,
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-1585&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };
 
 export const Disabled: Story = {
@@ -51,5 +63,11 @@ export const Disabled: Story = {
     size: "md",
     variant: "base",
     isDisabled: true,
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-1585&t=0imiNI8frfIDMA69-4",
+    },
   },
 };

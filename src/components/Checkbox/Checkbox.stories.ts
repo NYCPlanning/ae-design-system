@@ -23,6 +23,12 @@ export const Medium: Story = {
     isDisabled: false,
     children: "Medium checkbox label",
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-490&t=0imiNI8frfIDMA69-4",
+    },
+  },
 };
 
 export const Small: Story = {
@@ -32,5 +38,11 @@ export const Small: Story = {
     isChecked: false,
     isDisabled: false,
     children: "Small checkbox label",
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/yKCsuZxvSyAmdxaziIU2jS/Chakra-UI-Figma-Kit-for-DCP?node-id=441-490&t=0imiNI8frfIDMA69-4",
+    },
   },
 };
